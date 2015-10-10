@@ -1,11 +1,11 @@
 {
-    "name": "brain",
-    "description": "Neural network library",
-    "version": "0.7.0",
+    "name": "warmbrain",
+    "description": "Fork of harthur/brain with warm starting abilities",
+    "version": "0.7.2",
     "author": "Heather Arthur <fayearthur@gmail.com>",
     "repository": {
         "type": "git",
-        "url": "http://github.com/harthur/brain.git"
+        "url": "http://github.com/climbsrocks/warmBrain.git"
     },
     "scripts": {
         "test-unit": "mocha test/unit",
@@ -25,5 +25,5 @@
         "grunt-mocha-test": "~0.11.0",
         "browserify": "~3.32.0"
     },
-    "keywords": ["neural network", "classifier", "machine learning"]
+    "keywords": ["neural network", "classifier", "machine learning", "training", "warmStart"]
 }

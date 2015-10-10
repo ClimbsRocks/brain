@@ -1,6 +1,12 @@
-# brain
+# warmBrain
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/harthur/brain?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+## [Source](https://github.com/harthur/brain)
+This is a fork of Heather Arthur's awesome brain.js project. It merges in a [pull request](https://github.com/harthur/brain/pull/63) to enable an already trained neural net to continue to train, rather than having to restart each time. 
+
+This fork is designed to be used with [ppComplete](https://github.com/climbsrocks/ppComplete).
+
 
 `brain` is a JavaScript [neural network](http://en.wikipedia.org/wiki/Artificial_neural_network) library. Here's an example of using it to approximate the XOR function:
 
